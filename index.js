@@ -3,9 +3,11 @@ function receivesAFunction(callback){
 }
 
 function returnsANamedFunction(){
-    function returnsANamedFunction(){
+    function anotherfunction(){
         console.log("This is a named function");
+        return "Hello World";
     }
+  return anotherfunction;
 }
 
 function returnsAnAnonymousFunction(){
